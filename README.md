@@ -28,10 +28,27 @@ This is a simple and elegant music player web application. It allows you to play
     ```
 2. Open the `index.html` file in your web browser.
 
-## Screenshot
+## How to Edit the Songs List
 
-![Music Player Screenshot](images/music-player-screenshot.png)
+1. Open the `script.js` file in your preferred code editor.
+2. Locate the section where the songs list is defined. It should look something like this:
+    ```javascript
+    let track_list = [
+        {
+            name: "Track 1",
+            artist: "Artist 1",
+            image: "path/to/image1.jpg",
+            path: "path/to/song1.mp3"
+        },
+        {
+            name: "Track 2",
+            artist: "Artist 2",
+            image: "path/to/image2.jpg",
+            path: "path/to/song2.mp3"
+        },
+        // ...existing code...
+    ];
+    ```
+3. Add or remove songs by modifying the `track_list` array. Each song should have a `name`, `artist`, `image`, and `path`.
 
-## License
 
-This project is licensed under the MIT License.
